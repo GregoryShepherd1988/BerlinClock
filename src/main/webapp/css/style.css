@@ -1,0 +1,146 @@
+html,
+body{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    background: linear-gradient(white, lightskyblue);
+}
+
+.header{
+    background: lightblue;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    padding: 48px 60px;
+    border-bottom: solid 2px darkgray;
+}
+
+.base{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    width: 260px;
+}
+
+.title{
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 63px;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 0px 10px;
+}
+
+.clock_base{
+    margin-top: 20px;
+    width: 260px;
+}
+
+.clock_row{
+    display: inline-block;
+    width: 252px;
+    background: linear-gradient(silver, lightgrey);
+    height: 48px;
+    padding: 3px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: solid 1px darkgray;
+}
+
+.red{
+    background-color: #fff3f3;
+}
+
+.yellow{
+    background-color: #fdfde5;
+}
+
+.red.up{
+    background-color: #ff3c3c;
+}
+
+.yellow.up{
+    background-color: #ffff23;
+}
+
+.round{
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+}
+
+.round_base{
+    margin: 5px 85px;
+    height: 90px;
+    width: 90px;
+    -moz-border-radius: 90px;
+    -webkit-border-radius: 90px;
+    background-color: silver;
+    border: 1px solid darkgray;
+}
+
+
+.square{
+    display: inline-block;
+    height: 42px;
+    width: 54px;
+    margin: 3px;
+}
+
+.little_square{
+    display: inline-block;
+    height: 42px;
+    width: 13px;
+    margin: 3px;
+}
+
+.clock_row > div:first-of-type{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.clock_row > div:last-of-type{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.back_row{
+    position: absolute;
+    display: inline-block;
+    width: 210px;
+    padding: 0px 25px;
+    z-index: -1;
+}
+
+.single_column{
+    display: inline-block;
+    height: 100px;
+    width: 50px;
+    margin: 10px 80px;
+    background: linear-gradient(silver, lightgrey);
+    border: solid 1px darkgray;
+}
+
+.single_column.long{
+    margin-top: -10px;
+    height: 400px;
+    background: linear-gradient(to right, silver, lightgrey, silver);
+}
+
+.double_column{
+    display: inline-block;
+    height: 220px;
+    width: 50px;
+    margin: 0px 25px;
+    background: linear-gradient(silver, lightgrey);
+    border: solid 1px darkgray;
+}
